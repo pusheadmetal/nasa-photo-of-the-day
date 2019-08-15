@@ -34,11 +34,7 @@ const Header = (props) => {
                 </div>
                 <div class = "photo-tab" data-tab="tab2">
                     <img class="ui medium circular image" src = {props.getImage} alt = "NASA Image Of The Day!"/>
-                </div>
-                <div class = "photo-tab" data-tab="tab2">
                     <img class="ui medium circular image" src = {props.getImage} alt = "NASA Image Of The Day!"/>
-                </div>
-                <div class = "photo-tab" data-tab="tab2">
                     <img class="ui medium circular image" src = {props.getImage} alt = "NASA Image Of The Day!"/>
                 </div>
             </div>
