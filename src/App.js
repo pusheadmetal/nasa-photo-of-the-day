@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
+import $ from 'jquery';
 import axios from 'axios';
-import Card from "./components/Card";
+import Header from "./components/Header";
+import "semantic-ui-css/semantic.min.css";
 import "./App.css";
 
 function App() {
@@ -25,9 +27,7 @@ function App() {
   return (
     <div className="App">
       <div class = "container">
-        <div class = "cards">
-          <Card getTitle = {title} getImage = {hdurl} getDate = {date} getExplanation = {explanation} getType = {media_type} /> 
-        </div>
+        <Header getTitle = {title} getImage = {hdurl} getDate = {date} getExplanation = {explanation} getType = {media_type} />
       </div>
     </div>
   );

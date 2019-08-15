@@ -31,39 +31,14 @@
     transform: rotate(360deg);
   }
 }
-img{
-  width: 100%;
-  height: auto;
-}
 .container{
   width: 1000px;
   height: auto;
 }
 .cards{
-  width: 80%;
   display: flex;
-  justify-content: space-evenly;
-}
-.card{
-  border: 1px solid black;
-  border-radius: 15%;
-  width: 30%;
   justify-content: center;
-  flex-direction: column;
-  flex-wrap: nowrap;
 }
-.card-heading{
-  margin: 1%;
-  padding: 1%;
-  border-bottom: 1px solid black;
-}
-.card-image{
-  margin: 1%;
-  padding: 1%;
-  border-bottom: 1px solid black;
-}
-.card-text{
-  margin: 1%;
-  padding: 1%;
-}
+
+
 
